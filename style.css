@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fira sans;
+}
+
+.header > div{
+    border: none;
+}
+.main > div{
+    border: none;
+}
+body{
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.header{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-right: 80px;
+}
+.navbar ul{
+    font-weight: 500;
+}
+.icon{
+    height: 75%;
+}
+.sign{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.logo{
+    width: 50%;
+    height: 40%;
+    margin-left: 80px ;
+    margin-bottom: 5px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 40px;
+    border: none;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 80px ;
+    margin-top: 40px;
+    width: 50%;
+
+}
+
+.friday{
+    font-size: 40px;
+    font-weight: 500;
+}
+.time{
+    font-size: 30px;
+    font-weight: 400;
+}
+.left > button{
+    border: none;
+    box-shadow: -5px 5px 50px 0 red;
+    width: 93px;
+    height: 25px;
+    cursor: pointer;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 100%;
+    height: 200px;
+}
+.recommend{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    
+}
+.menuler{
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.pizza{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 3px;
+    width: 33%;
+    border: 1px solid gray;
+    border-radius: 170px 170px 30px 30px;
+    padding: 10px;
+    height: 250px;
+    
+}
+.div{
+    width: 100%;
+    height: 30%;
+    margin-top: 0px;
+    
+}
+.p1{
+    width: 90%;
+    height: 90%;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    margin-bottom: 0;
+}
+.p2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.p3{
+    font-size: 12px;
+    text-align: center;
+}
+.p4{
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.select{
+    width: 70%;
+}
+.pizza button{
+    width: 70%;
+}
